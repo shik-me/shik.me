@@ -8,12 +8,18 @@
 <meta name="title" content="shik!me" />
 <meta name="description" content="A best for the Best" />
 <style>
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
   :root {
     font-family: Georgia, 'serif';
     color: gold;
     background: black;
   }
   body {
+    animation: fade-in ease-out 1s;
     margin: 0;
     padding: 5vmin;
     display: grid;
